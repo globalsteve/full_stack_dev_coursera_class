@@ -24,8 +24,8 @@ function displayHREmployees() {
 }
 
 function displayJavaScriptEmployees() {
-     const hrEmployees = employees.filter(employee => employee.specialization === 'JavaScript');
-      const hrEmployeesDisplay = hrEmployees.map((employee, index) => `<p>${employee.id}: ${employee.name}: ${employee.name} - ${employee.department} - $${employee.salary}- ${employee.specialization}</p>`).join('');
-      document.getElementById('employeesDetails').innerHTML = hrEmployeesDisplay;
+     const xEmployees = employees.filter(employee => employee.specialization === 'JavaScript');
+      const xEmployeesDisplay = xEmployees.map((employee, index) => `<p>${employee.id}: ${employee.name}: ${employee.name} - ${employee.department} - $${employee.salary}- ${employee.specialization}</p>`).join('');
+      document.getElementById('employeesDetails').innerHTML = xEmployeesDisplay;
 }
 
